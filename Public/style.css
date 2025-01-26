@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Arial', sans-serif; /* Or use a web-safe font */
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text for readability */
+  }
+  
+  /* Heading Styles */
+  h1 {
+    font-size: 2.5rem; /* Largest heading */
+  }
+  
+  h2 {
+    font-size: 1.2rem; /* Smaller than h3 */
+  }
+  
+  h3 {
+    font-size: 1.5rem; /* Larger than h2 */
+  }
+  
+  /* Justified Text */
+  p, h2, h3 {
+    text-align: justify; /* Justify text to align both left and right */
+    text-justify: inter-word; /* Distribute words evenly for uniform length */
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text */
+    padding: 1rem 0; /* Padding around header content */
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Navbar Styling */
+  nav ul {
+    list-style-type: "\1F44D";
+    display: flex;
+    justify-content: justify;
+    margin-top: 1rem;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6347; /* Tomato color on hover */
+  }
+  
+  /* Main Content */
+  main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  p {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  /* Responsive Design (Mobile) */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    h3 {
+      font-size: 1rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  }
+  
